@@ -1,15 +1,24 @@
-#Guess The Number Game! 
+#Guess The Number! 
 
 from random
 
 #Create variables
 randomv = 0
-uinput = 1
 parameters = [1,2,3,4,5,6,7,8,9,10]
 
+#Randomly generating a number into variable with a range from 1-10
+  randomv = random.choice(parameters)
+
+#Get input from user to select an integer from 1-10
+print(Welcome to Guess The Number!)
+print(Please select an integer between 1 and 10:)
+uinput = input()
+
+
+
 #Start loop to repeat randomly generated number
-if (randomv != uinput)
-  {
+while randomv != uinput:
+  
 #Randomly generating a number into variable with a range from 1-10
   randomv = random.choice(parameters)
 
