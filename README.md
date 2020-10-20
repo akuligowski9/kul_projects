@@ -13,8 +13,8 @@ This folder is a collection of experiments to learn development.
 * 3 - Just Be Funny
 
 ## Technologies
-Project is created with:
-Python 3.8
+Technologies included in projects
+* Python 3.8
 	
 ## Setup
 TBD
