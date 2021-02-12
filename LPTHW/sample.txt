@@ -1,0 +1,3 @@
+This is the line 1 prompt
+...and the line 2 prompt
+... lastly the line 3 prompt
