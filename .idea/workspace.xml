@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84105db3-8e9d-41a0-bf25-15c95eabdffa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/madlibs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntroductionToAlcohol/DESIGN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntroductionToAlcohol/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JBF/JBF_rd_one.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/ComedyLibrary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/DESIGN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/css/business-frontpage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/index4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/Prototype1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JustBeFunny/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="ec1e46f4-1a3c-40b6-8746-ad9c376dbb90" />
+  <component name="ProjectId" id="1kLXDnS5JRgmUbd92f0BZCQfXyT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.helloworld">
+    <configuration name="GuessTheNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuessTheNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coursera" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coursera/helloworld.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.helloworld" />
+        <item itemvalue="Python.GuessTheNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84105db3-8e9d-41a0-bf25-15c95eabdffa" name="Default Changelist" comment="" />
+      <created>1605480727761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605480727761</updated>
+      <workItem from="1605480729046" duration="3398000" />
+      <workItem from="1609192932432" duration="3042000" />
+      <workItem from="1609701855030" duration="388000" />
+      <workItem from="1610415458636" duration="1836000" />
+      <workItem from="1610559770189" duration="16000" />
+      <workItem from="1612394581279" duration="228000" />
+      <workItem from="1612457184743" duration="496000" />
+      <workItem from="1613186813404" duration="228000" />
+      <workItem from="1613334076259" duration="716000" />
+      <workItem from="1613485988127" duration="479000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="798" height="440" key="GridCell.Tab.0.bottom" timestamp="1609701599753">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="798" height="440" key="GridCell.Tab.0.bottom/0.23.1680.977@0.23.1680.977" timestamp="1609701599753" />
+    <state width="798" height="440" key="GridCell.Tab.0.center" timestamp="1609701599752">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="798" height="440" key="GridCell.Tab.0.center/0.23.1680.977@0.23.1680.977" timestamp="1609701599752" />
+    <state width="798" height="440" key="GridCell.Tab.0.left" timestamp="1609701599752">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="798" height="440" key="GridCell.Tab.0.left/0.23.1680.977@0.23.1680.977" timestamp="1609701599752" />
+    <state width="798" height="440" key="GridCell.Tab.0.right" timestamp="1609701599752">
+      <screen x="0" y="23" width="1680" height="977" />
+    </state>
+    <state width="798" height="440" key="GridCell.Tab.0.right/0.23.1680.977@0.23.1680.977" timestamp="1609701599752" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/projects$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1609193002838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Coursera" />
+    <SUITE FILE_PATH="coverage/projects$GuessTheNumber.coverage" NAME="GuessTheNumber Coverage Results" MODIFIED="1609192992358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
