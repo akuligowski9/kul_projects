@@ -1,20 +1,10 @@
 import random
 import time
+from kul_projects.Harcoppa.JustBeFunny.ComedyCategory import display_categories, category_description, category_helper
+from kul_projects.Harcoppa.JustBeFunny.ComedyScenes import display_scenes
+import
 from sys import exit
 
-categories = ['Alternative Comedy', 'Anecdotal Comedy', 'Anti-Humor', 'Dark Comedy', 'Blue Comedy', 'Character Comedy',
-              'Cringe Comedy',
-              'Deadpan Comedy', 'Heritage Comedy', 'Improvisational Comedy', 'Insult Comedy', 'Musical Comedy',
-              'Observational Comedy', 'One-liners', 'Physical Comedy', 'Prop Comedy', 'Shock Humor', 'Sketch Comedy',
-              'Spoof',
-              'Surreal Comedy', 'Topical Comedy / Satire', 'Wit / Wordplay']
-scenes = ['Funerals', 'Suicide', 'Sitting at a red light', 'Ghosting', '9/11 - always remember',
-          'Your loving partner', 'Drinking', 'Military', 'Fighting', '#metoo movement',
-          'Abortion rally', 'Fitness', 'Religion', 'Cancer', 'Fishtanks', 'Candles',
-          'Waiting in line at the grocery store', 'Rape', 'Pooping', 'Animals/pets',
-          'Books', 'Armpits', 'Parents', 'That one family member...', 'Siblings', 'Talking with your crush',
-          'At the dinner table', 'Cultural norms', 'Cyclists', 'Death', 'Sports', 'The Homeless',
-          'Poverty', 'Yoga', 'Sleeping', 'Vacation', 'Technology', 'Government', 'Racism', 'Mental Illness']
 t = input("Enter the time in seconds you'd like for this round: ")
 
 
@@ -47,11 +37,11 @@ def round_check():
 def round():
     round_category = random.choice(categories)
     round_scene = random.choice(scenes)
-    print("The category of comedy for this round: %s" % (round_category))
+    print("The category of comedy for this round: %s" % (ComedyCategory.round_category))
     print("The scene for this round: %s" % (round_scene))
-    print("Would you like a description of %s? (Y/N)" % (round_category))
+    print("Would you like a description of %s? (Y/N)" % (ComedyCategory.round_category))
     describe_option()
-    print("Would you like an example of %s? (Y/N)" % (round_category))
+    print("Would you like an example of %s? (Y/N)" % (ComedyCategory.round_category))
     example_option()
     print("For every turn you get one shuffle. Get a new category and round? (Y/N)")
     round_check()
@@ -60,19 +50,12 @@ def round():
 
 def describe_option(round_category):
     next = input("> ")
-    if next == "Y" or "Yes" or "yes":
+    if next.lower() == "y" or "yes":
         category_description(round_category)
-    elif next == "N" or "No" or "no":
+    elif next.lower() == "n" or "no":
         print("You've got this.")
     else:
-        print("Invalid command, try again!")
-        category_helper()
-
-
-def category_description(round_category):
-    next = round_category
-    if next == round_category:
-        category_description()
+        invalid_command_helper()
 
 
 def example_option(round_category):
@@ -83,45 +66,11 @@ def example_option(round_category):
     elif next == "N" or "No" or "no":
         print("You've got this.")
     else:
-        print("Invalid command, try again!")
-        category_helper()
+        invalid_command_helper()
 
-
-def category_example(round_category):
-    next = round_category
-    if next == round_category:
-        category_description()
-
-
-def display_rules():
-    print('''Per turn you get:
-    \t* A Time Limit (We recommend two minutes)
-    \t* A Category of Comedy
-    \t* A Scene or Topic
-    ...And just be funny!
-
-    Scoring per turn: (4 points possible per round)
-    \t* Is it funny (2 points)
-    \t* Did you use the category of comedy? (1 point)
-    \t* Did you use the scene or topic? (1 point)
-
-    In a round, every player gets a turn. First player to 12 points wins. 
-    Sudden death if multiple players hit 12 points in a round. 
-    For sudden death, a single turn will be taken by every player over 
-    12 points using the same time limit, category of comedy, and scene. 
-    ''')
-    main_menu()
-
-
-def display_scenes():
-    for scene in scenes:
-        print("\t*%s\n" % scene)
-
-
-def display_categories():
-    for category in categories:
-        print("\t*%s\n" % category)
-
+def invalid_command_helper():
+    error = "You've entered an invalid command. Please enter Yes or No. Also Y/N will also work. Try again!"
+    raise AttributeError(error)
 
 def start():
     print("Welcome to Just Be Funny!")
