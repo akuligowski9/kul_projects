@@ -7,6 +7,7 @@ scenes = ['Funerals', 'Suicide', 'Sitting at a red light', 'Ghosting', '9/11 - a
           'At the dinner table', 'Cultural norms', 'Cyclists', 'Death', 'Sports', 'The Homeless',
           'Poverty', 'Yoga', 'Sleeping', 'Vacation', 'Technology', 'Government', 'Racism', 'Mental Illness']
 
+
 def display_scenes():
     for scene in scenes:
         print("\t*%s\n" % scene)
