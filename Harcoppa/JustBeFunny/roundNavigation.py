@@ -24,11 +24,12 @@ def end_game():
 def round():
     round_category = choice(categories)
     round_scene = choice(scenes)
-    round_prep = "The category of comedy for this round: {}" \
-                 "The scene for this round: {}" \
-                 "Would you like a description of {}? (Y/N)"
-    round_prep.format(round_category, round_scene, round_category)
-    print(round_prep)
+    round_prep = """
+                 The category of comedy for this round: {} \n
+                 The scene for this round: {} \n 
+                 Would you like a description of {}?
+                 """
+    print(round_prep.format(round_category, round_scene, round_category))
     describe_option(round_category)
     print("Would you like an example of %s? (Y/N)" % round_category)
     example_option(round_category)
@@ -107,7 +108,7 @@ def display_rules():
 def main_menu():
     print("Enter one of the following:")
     print("""
-\t* Play!
+\t* Play 
 \t* Rules
 \t* Categories
 \t* Scenes
@@ -116,7 +117,7 @@ def main_menu():
 
     next = input("> ")
 
-    if next.lower() == "play!":
+    if next.lower() == "play":
         round()
     elif next.lower() == "rules":
         display_rules()
