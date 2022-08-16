@@ -1,4 +1,4 @@
-from kul_projects.Harcoppa.JustBeFunny.JBF_rd_one import main_menu
+from kul_projects.Harcoppa.JustBeFunny.roundNavigation import main_menu
 
 
 def display_rules():
